@@ -5,7 +5,7 @@ CC = c++
 OBJ = ${SRC:.cpp=.o}
 
 $(NAME): $(OBJ)
-	$(CC) $(SRC) -o $@ -g
+	$(CC) $(SRC) -o $@
 
 all: $(NAME) $(OBJ)
 
